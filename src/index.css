@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  --main-font-family: "Roboto", sans-serif;
+  --main-color: #009286;
+  --white-color: #ffffff;
+  --black-color: #2A3F65;
+  --optional-color: #90006F;
+  --paragraph-color: #5D7079;
+  --font-size: 16px;
+  --transition: .6s;
+}
+
+* {
+  font-family: "Roboto Serif", serif;
+}
+
+header {
+  @apply xl:py-4 xl:px-30 bg-[#ffffff] py-4 px-10
+}
+
+.nav {
+  @apply hidden xl:flex py-5 gap-8 justify-between sm:justify-evenly sm:gap-10;
+
+}
+
+.nav li {
+  @apply text-[#2A3F65] text-[16px] font-bold hover:text-[#009286] capitalize;
+}
+
+.btn {
+
+  @apply py-2.75 px-5.5 text-white rounded-lg hover:bg-[#90006F] hover:text-white transition
+}
+
+.btn-nav {
+  @apply py-3.75 px-7.5 text-white bg-[#009286] mr-5 mt-2  hidden lg:block xl:block 
+}
+
+header i {
+  @apply text-3xl text-[#009286] p-5 block xl:hidden
+}
+
+.btn-default {
+  @apply py-3.75 px-7.5 text-white bg-[#009286] mr-5 mt-5
+}
+
+.btn-bannar {
+  @apply py-3.75 px-7.5 text-[#009286] bg-white mr-5 mt-5
+}
+
+.btn-primary {
+  @apply text-[#2A3F65] mr-10 mt-5 border-2 border-[#90006F] hover:text-white
+}
+
+.reliablesection-ul {
+  @apply p-0 xl:p-5 lg:p-5 md:p-5 text-center xl:text-left md:text-left lg:text-left;
+
+  /* li ke liye alag se nesting */
+  & li {
+    @apply py-2 text-[#5D7079];
+
+
+    & span {
+      @apply text-[#009286] text-[14px] px-1
+    }
+  }
+}
+
+p {
+  @apply text-[#5D7079] text-[16px]/[30px]
+}
+
+.link-btn {
+  @apply text-[#009286] mt-5 inline-block
+}
+
+.span {
+  @apply text-[#90006F] font-semibold text-[16px]/[24px] my-3 block
+}
+
+.span-heading {
+  @apply text-center
+}
+
+.global-transfers-area {
+  @apply flex gap-10 mt-10 flex-col xl:flex-row lg:flex-row xl:flex-nowrap lg:flex-wrap;
+
+  & .card {
+    @apply w-12/12 xl:w-6/12 lg:w-[calc(50%-20px)] p-4 border border-[#9caebd] rounded-sm hover:bg-[#ffff] transition;
+
+    & .icon {
+      @apply text-[35px]/[24px] text-[#009286] my-5;
+    }
+
+    & h3 {
+      @apply text-[15px] text-[#2A3F65] font-bold my-2
+    }
+
+  }
+}
+
+#box .reliablesection-ul {
+  @apply p-0 xl:p-5 lg:p-5 md:p-5 text-center xl:text-left md:text-left lg:text-left;
+
+  /* li ke liye alag se nesting */
+  & li {
+    @apply py-2 text-[#5D7079];
+
+
+    & span {
+      @apply text-[#009286] text-[14px] px-1
+    }
+  }
+}
+
+.benift-section {
+  @apply flex mt-5 xl:flex-row lg:flex-row md:flex-row gap-2 flex-wrap flex-col;
+
+  & .card {
+    @apply w-12/12 xl:w-[calc(50%-20px)] lg:w-[calc(50%-20px)] xl:flex-row md:w-[calc(50%-20px)] md:flex-row lg:flex-row gap-10 flex flex-col justify-items-center justify-center p-5 bg-white rounded-sm hover:border-[var(--optional-color)] hover:border-2 transition;
+
+    & .imageSec {
+      @apply w-3/12;
+
+      & img {
+        @apply mt-3 w-100
+      }
+    }
+
+    & .content {
+      & h3 {
+        @apply text-[#2A3F65] font-bold mb-2
+      }
+    }
+
+  }
+
+}
+
+.feature-sec {
+  @apply bg-[#ffff] p-10 gap-10 xl:py-20 xl:px-30 flex xl:flex-row flex-col;
+
+  & .left-wrapper {
+    @apply xl:w-4/12 lg:w-4/12 w-12/12 text-center;
+  }
+
+  & .right-wrapper {
+    @apply xl:w-8/12 lg:w-8/12 w-12/12;
+
+    & .heading {
+      @apply text-[35px] text-[#2A3F65] font-bold my-2
+    }
+
+    & h3 {
+      @apply text-[18px] text-[#2A3F65] font-bold my-2
+    }
+
+  }
+
+}
+
+.item {
+  @apply  p-5 xl:w-4/12 lg:w-4/12 w-12/12;
+& p{
+  @apply mt-5 mb-5;
+}
+  & h3 {
+    @apply text-[18px] text-[#2A3F65] font-bold py-2
+  }
+  & i{
+    @apply bg-white text-[var(--main-color)] text-[22px] p-3 m-2 border-2 rounded-4xl
+  }
+  & ul{
+    @apply  text-[#5D7079];
+    & li{
+      @apply p-2
+    }
+
+  }
+}
+/* bannar for pages */
+.bannarSec{
+  @apply bg-[#f7f7f7] flex-col xl:px-30 flex gap-10 xl:gap-20 xl:flex-row  lg:flex-row flex-col-reverse;
+  & .right-wrapper{
+  @apply  lg:w-6/12 xl:lg:w-6/12 xl:py-40 w-12/12 ;
+  & h3{
+    @apply text-[35px] text-[#2A3F65] font-bold my-2 ;
+  }
+  & span{
+   @apply text-[#5D7079];
+   & b{
+    @apply text-[#009286]
+   }
+  }
+  }
+  .left-warpper{
+       @apply  lg:w-6/12 xl:lg:w-6/12 py-10 w-12/12;
+  }
+
+}
+
+/* for Panel */
+.header-btn {
+
+  @apply py-2.75 px-5.5 text-white rounded-lg bg-[#90006F] hover:text-white transition
+}
