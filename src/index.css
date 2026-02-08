@@ -89,7 +89,7 @@ p {
   @apply flex gap-10 mt-5 xl:mt-10  flex-col xl:flex-row lg:flex-row xl:flex-nowrap lg:flex-wrap;
 
   & .card {
-    @apply w-12/12 xl:w-6/12 lg:w-[calc(50%-20px)] p-4 border border-[#9caebd] rounded-sm hover:bg-[#ffff] transition;
+    @apply w-12/12 xl:w-6/12 lg:w-[calc(50%-20px)] p-4 border border-[#e6e5e5] rounded-3xl hover:bg-[#ffff] transition;
 
     & .icon {
       @apply text-[35px]/[24px] text-[#009286] my-5;
@@ -120,7 +120,8 @@ p {
   @apply flex xl:mt-5   xl:flex-row lg:flex-row md:flex-row gap-2 flex-wrap flex-col;
 
   & .card {
-    @apply w-12/12 xl:w-[calc(50%-20px)] lg:w-[calc(50%-20px)] xl:flex-row md:w-[calc(50%-20px)] md:flex-row lg:flex-row gap-10 flex flex-col justify-items-center justify-center p-5 bg-white rounded-sm hover:border-[var(--optional-color)] hover:border-2 transition;
+    @apply w-12/12 xl:w-[calc(50%-20px)] lg:w-[calc(50%-20px)] xl:flex-row md:w-[calc(50%-20px)] md:flex-row lg:flex-row gap-10 flex flex-col justify-items-center justify-center p-5 bg-white
+    hover:border-[var(--optional-color)] hover:border-2 transition rounded-2xl;
 
     & .imageSec {
       @apply w-3/12;
