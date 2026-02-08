@@ -117,7 +117,7 @@ p {
 }
 
 .benift-section {
-  @apply flex mt-5   xl:flex-row lg:flex-row md:flex-row gap-2 flex-wrap flex-col;
+  @apply flex xl:mt-5   xl:flex-row lg:flex-row md:flex-row gap-2 flex-wrap flex-col;
 
   & .card {
     @apply w-12/12 xl:w-[calc(50%-20px)] lg:w-[calc(50%-20px)] xl:flex-row md:w-[calc(50%-20px)] md:flex-row lg:flex-row gap-10 flex flex-col justify-items-center justify-center p-5 bg-white rounded-sm hover:border-[var(--optional-color)] hover:border-2 transition;

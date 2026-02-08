@@ -16,10 +16,10 @@ function Index() {
             An international account to send money to over 60 countries around
             the world, up to 7x cheaper the bank. Learn more
           </p>
-       <div className="">
+   
            <button className="btn btn-default">Explore</button>
           <button className=" btn btn-primary">contact us </button>
-       </div>
+     
         </div>
         <div className="w-12/12 xl:py-32 p-5 xl:w-6/12">
           <img className="rounded-2xl h-full" src="/images/banner.jpg" alt="" />
