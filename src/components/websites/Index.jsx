@@ -16,8 +16,10 @@ function Index() {
             An international account to send money to over 60 countries around
             the world, up to 7x cheaper the bank. Learn more
           </p>
-          <button className="btn btn-default">Explore</button>
+       <div className="">
+           <button className="btn btn-default">Explore</button>
           <button className=" btn btn-primary">contact us </button>
+       </div>
         </div>
         <div className="w-12/12 xl:py-32 p-10 xl:w-6/12">
           <img className="rounded-2xl h-full" src="/images/banner.jpg" alt="" />
@@ -60,7 +62,7 @@ function Index() {
       </section>
  
       <section className="bg-[#f7f7f7] xl:py-30 p-10 xl:px-20">
-        <div className="xl:px-90 p-10">
+        <div className="xl:px-90 xl:p-10 p-0">
 <span className="span-heading span">Global Transfers</span>
          <h2 className="xl:text-[35px]/[49px] lg:text-[35px]/[49px] text-[22px] text-[#2A3F65] font-bold text-center">We Charge As Little As Possible. No Subscription Fee</h2>          
         </div>
@@ -144,7 +146,7 @@ function Index() {
       
       </section>
       <section className="bg-[#009286] xl:py-30 p-10">
-          <div className="xl:px-90 text-center p-10">
+          <div className="xl:px-90 text-center xl:p-10 p-0 ">
 <span className=" text-white font-semibold text-[16px]/[24px] my-3 block ">Your Benefits</span>
          <h2 className="xl:text-[35px]/[49px] text-[22px]  text-white font-bold">Take The Stress Out Of Managing Property And Money</h2>          
         </div>

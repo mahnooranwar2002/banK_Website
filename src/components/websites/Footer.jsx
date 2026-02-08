@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div>
-      <footer className="bg-[#d4d4d6] mt-5  xl:gap-10 xl:py-10 xl:px-30  flex xl:flex-row lg:flex-row  flex-col">
+      <footer className="bg-[#d4d4d6] mt-5 p-5 xl:gap-10 xl:py-10 xl:px-30  flex xl:flex-row lg:flex-row  flex-col">
 <div className="item">
   <img src="https://templates.hibootstrap.com/snuff/default/assets/images/logo.png" alt="" />
 <p>To get exclusive updates and benefits.</p>
