@@ -9,7 +9,7 @@ function Index() {
    
       <section className="bg-[#f7f7f7] flex-col xl:px-10 flex gap-10 xl:gap-20 xl:flex-row  lg:flex-row">
         <div className="w-12/12 xl:py-62 lg:py-30 p-10  xl:w-6/12 lg:6/12">
-          <h1 className="text-[44px]/[75.7px] text-[#2A3F65] font-bold ">
+          <h1 className="xl:text-[44px]/[75.7px] lg:text-[44px]/[75.7px] text-[29px] text-[#2A3F65] font-bold ">
             Make Online Banking Easier & Comfortable
           </h1>
           <p className="">
@@ -30,7 +30,8 @@ function Index() {
         </div>
         <div className="w-12/12  xl:w-6/12 ">
           <span className="span"> Reliable Online Payment Platform</span>
-          <h3 className="text-[35px]/[49px] text-[#2A3F65] font-bold ">Transfer & Deposite Money Anytime, Anywhere In The World</h3>
+          {/* text-[35px]/[49px]  */}
+          <h3 className="xl:text-[44px]/[75.7px] lg:text-[44px]/[75.7px] text-[29px]  text-[#2A3F65] font-bold ">Transfer & Deposite Money Anytime, Anywhere In The World</h3>
           <p className="">Lorem ipsum dolor sit amet consectetur adipiscing elit. Volutpat nisl bibendum vitae consequat. Nisl ut sed accumsan congue tempus fringilla diam arcu. Venenatis nulla senectus risus sagittis.</p>
             <div className="flex  flex-col lg:flex-row md:flex-row xl:flex-row">
             <ul className="reliablesection-ul">
@@ -57,11 +58,11 @@ function Index() {
         </div>
       
       </section>
-      
-      <section className="bg-[#f7f7f7] xl:py-30 p-10 xl:px-20 ">
+ 
+      <section className="bg-[#f7f7f7] xl:py-30 p-10 xl:px-20">
         <div className="xl:px-90 p-10">
 <span className="span-heading span">Global Transfers</span>
-         <h2 className="text-[35px]/[49px] text-[#2A3F65] font-bold text-center">We Charge As Little As Possible. No Subscription Fee</h2>          
+         <h2 className="xl:text-[35px]/[49px] lg:text-[35px]/[49px] text-[22px] text-[#2A3F65] font-bold text-center">We Charge As Little As Possible. No Subscription Fee</h2>          
         </div>
 <div className="global-transfers-area  ">
 <div className="card">
@@ -111,7 +112,7 @@ function Index() {
   <section className="bg-[#ffff] gap-10 xl:py-20 xl:px-30 p-10 flex">
        <div className="xl:w-6/12 w-12/12">
           <span className="span"> Reliable Online Payment Platform</span>
-          <h3 className="text-[35px]/[49px] text-[#2A3F65] font-bold ">Transfer & Deposite Money Anytime, Anywhere In The World</h3>
+          <h3 className="xl:text-[35px]/[49px] text-[22px] text-[#2A3F65] font-bold ">Transfer & Deposite Money Anytime, Anywhere In The World</h3>
           <p className="">Lorem ipsum dolor sit amet consectetur adipiscing elit. Volutpat nisl bibendum vitae consequat. Nisl ut sed accumsan congue tempus fringilla diam arcu. Venenatis nulla senectus risus sagittis.</p>
             <div className="flex gap-0 flex-col lg:flex-row md:flex-row xl:flex-row" id="box">
             <ul className="reliablesection-ul">
@@ -145,7 +146,7 @@ function Index() {
       <section className="bg-[#009286] xl:py-30 p-10">
           <div className="xl:px-90 text-center p-10">
 <span className=" text-white font-semibold text-[16px]/[24px] my-3 block ">Your Benefits</span>
-         <h2 className="text-[35px]/[49px] text-white font-bold">Take The Stress Out Of Managing Property And Money</h2>          
+         <h2 className="xl:text-[35px]/[49px] text-[22px]  text-white font-bold">Take The Stress Out Of Managing Property And Money</h2>          
         </div>
         <div className="benift-section">
           <div className="card">
@@ -250,7 +251,7 @@ function Index() {
 </section>
 <section className="bg-[#03635b] hidden text-white xl:py-20 xl:px-30 xl:flex justify-center flex-col gap-2 ">
 <span className="block text-center">Connect Us</span>
-<h3 className="text-center text-[30px]  font-bold my-2">
+<h3 className="text-center xl:text-[30px] text-[22px]   font-bold my-2">
   Sending International Business Payments or Sending Money To Family Overseas? Snuff Are Your Fast And Simple Solution.
 </h3>
 <div className="flex justify-center">

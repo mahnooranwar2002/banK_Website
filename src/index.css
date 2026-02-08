@@ -56,7 +56,7 @@ header i {
 }
 
 .reliablesection-ul {
-  @apply p-0 xl:p-5 lg:p-5 md:p-5 text-center xl:text-left md:text-left lg:text-left;
+  @apply p-0 xl:p-5 lg:p-5 md:p-5 xl:text-left md:text-left lg:text-left;
 
   /* li ke liye alag se nesting */
   & li {
@@ -70,7 +70,7 @@ header i {
 }
 
 p {
-  @apply text-[#5D7079] text-[16px]/[30px]
+  @apply text-[#5D7079] lg:text-[16px]/[30px] xl:text-[16px]/[30px] text-[14px]/[35px]
 }
 
 .link-btn {
@@ -103,7 +103,7 @@ p {
 }
 
 #box .reliablesection-ul {
-  @apply p-0 xl:p-5 lg:p-5 md:p-5 text-center xl:text-left md:text-left lg:text-left;
+  @apply p-0 xl:p-5 lg:p-5 md:p-5  xl:text-left md:text-left lg:text-left;
 
   /* li ke liye alag se nesting */
   & li {
@@ -141,17 +141,17 @@ p {
 }
 
 .feature-sec {
-  @apply bg-[#ffff] p-10 gap-10 xl:py-20 xl:px-30 flex xl:flex-row flex-col;
+  @apply bg-[#ffff] p-10 gap-10 xl:py-20 xl:px-30 flex xl:flex-row flex-col justify-center;
 
   & .left-wrapper {
-    @apply xl:w-4/12 lg:w-4/12 w-12/12 text-center;
+    @apply xl:w-4/12 lg:w-4/12 w-12/12;
   }
 
   & .right-wrapper {
     @apply xl:w-8/12 lg:w-8/12 w-12/12;
 
     & .heading {
-      @apply text-[35px] text-[#2A3F65] font-bold my-2
+      @apply xl:text-[35px] text-[#2A3F65] font-bold my-2 text-[22px]
     }
 
     & h3 {
