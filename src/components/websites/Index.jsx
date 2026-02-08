@@ -7,8 +7,8 @@ function Index() {
     <>
       <Headers />
    
-      <section className="bg-[#f7f7f7] flex-col xl:px-10 flex gap-10 xl:gap-20 xl:flex-row  lg:flex-row">
-        <div className="w-12/12 xl:py-62 lg:py-30 p-10  xl:w-6/12 lg:6/12">
+      <section className="bg-[#f7f7f7] flex-col xl:px-10 flex gap-0 xl:gap-20 xl:flex-row  lg:flex-row">
+        <div className="w-12/12 xl:py-62 lg:py-30 p-5  xl:w-6/12 lg:6/12">
           <h1 className="xl:text-[44px]/[75.7px] lg:text-[44px]/[75.7px] text-[29px] text-[#2A3F65] font-bold ">
             Make Online Banking Easier & Comfortable
           </h1>
@@ -26,7 +26,7 @@ function Index() {
         </div>
       </section>
        
-      <section className="bg-[#ffff] xl:py-20 xl:px-30 flex  p-10 flex-col xl:flex-row">
+      <section className="bg-[#ffff] xl:py-20 xl:px-30 flex  p-5 flex-col xl:flex-row">
         <div className="xl:w-6/12 hidden xl:block">
           <img src="images/reliable.png" alt="" />
         </div>
@@ -61,7 +61,7 @@ function Index() {
       
       </section>
  
-      <section className="bg-[#f7f7f7] xl:py-30 p-10 xl:px-20">
+      <section className="bg-[#f7f7f7] xl:py-30 p-5 xl:px-20">
         <div className="xl:px-90 xl:p-10 p-0">
 <span className="span-heading span">Global Transfers</span>
          <h2 className="xl:text-[35px]/[49px] lg:text-[35px]/[49px] text-[22px] text-[#2A3F65] font-bold text-center">We Charge As Little As Possible. No Subscription Fee</h2>          
