@@ -21,7 +21,7 @@ function Index() {
           <button className=" btn btn-primary">contact us </button>
        </div>
         </div>
-        <div className="w-12/12 xl:py-32 p-10 xl:w-6/12">
+        <div className="w-12/12 xl:py-32 p-5 xl:w-6/12">
           <img className="rounded-2xl h-full" src="/images/banner.jpg" alt="" />
         </div>
       </section>
@@ -145,7 +145,7 @@ function Index() {
      
       
       </section>
-      <section className="bg-[#009286] xl:py-30 p-10">
+      <section className="bg-[#009286] xl:py-30 p-5">
           <div className="xl:px-90 text-center xl:p-10 p-0 ">
 <span className=" text-white font-semibold text-[16px]/[24px] my-3 block ">Your Benefits</span>
          <h2 className="xl:text-[35px]/[49px] text-[22px]  text-white font-bold">Take The Stress Out Of Managing Property And Money</h2>          
