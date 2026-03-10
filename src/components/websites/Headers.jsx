@@ -19,6 +19,12 @@ if(idStorage){
 })}
 } ,[])
 
+var links=[
+  {to:"" ,label:"Home"},
+   {to:"/sunff/about" ,label:"About"},
+   {to:"/sunff/contact" ,label:"Contact"},
+   
+]
   return (
     <>
       <header>
@@ -30,10 +36,14 @@ if(idStorage){
           />
           <nav className="">
             <ul className="nav">
-              <li>Home</li>
-              <li>About</li>
-              <li>Services</li>
-              <li>Contact us</li>
+              {
+                links.map((r)=>(
+                <li><Link to={r.to}>{r.label}</Link></li>
+                  
+                  ))
+              }
+          
+          
             </ul>
           </nav>
           {

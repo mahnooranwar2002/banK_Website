@@ -33,7 +33,7 @@ function Index() {
         <div className="w-12/12  xl:w-6/12 ">
           <span className="span"> Reliable Online Payment Platform</span>
           {/* text-[35px]/[49px]  */}
-          <h3 className="xl:text-[44px]/[75.7px] lg:text-[44px]/[75.7px] text-[29px]  text-[#2A3F65] font-bold ">Transfer & Deposite Money Anytime, Anywhere In The World</h3>
+          <h3 className=" lg:text-[44px]/[75.7px] text-[29px]  text-[#2A3F65] font-bold ">Transfer & Deposite Money Anytime, Anywhere In The World</h3>
           <p className="">Lorem ipsum dolor sit amet consectetur adipiscing elit. Volutpat nisl bibendum vitae consequat. Nisl ut sed accumsan congue tempus fringilla diam arcu. Venenatis nulla senectus risus sagittis.</p>
             <div className="flex  flex-col lg:flex-row md:flex-row xl:flex-row">
             <ul className="reliablesection-ul">
@@ -251,7 +251,7 @@ function Index() {
 </div>
 
 </section>
-<section className="bg-[#03635b] hidden text-white xl:py-20 xl:px-30 xl:flex justify-center flex-col gap-2 ">
+<section className="bg-[#03635b]  text-white lg:py-20 lg:px-30 xl:flex p-5 justify-center flex-col gap-2 ">
 <span className="block text-center">Connect Us</span>
 <h3 className="text-center xl:text-[30px] text-[22px]   font-bold my-2">
   Sending International Business Payments or Sending Money To Family Overseas? Snuff Are Your Fast And Simple Solution.
@@ -260,6 +260,7 @@ function Index() {
   <button className="btn btn-default">Personal Account</button><button className="btn btn-bannar ">Busniess Account</button>
 </div>
 </section>
+
 <Footer/>
 
     </>
