@@ -1,6 +1,13 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
+  var links=[
+  {to:"" ,label:"Home"},
+   {to:"/sunff/about" ,label:"About"},
+   {to:"/sunff/contact" ,label:"Contact"},
+   
+]
   return (
     <div>
       <footer className="bg-[#d4d4d6] mt-5 p-5 xl:gap-10 xl:py-10 xl:px-30  flex xl:flex-row lg:flex-row  flex-col">
@@ -14,12 +21,13 @@ const Footer = () => {
 <div className="item">
  <h3>Company And Team</h3>
  <ul>
-  <li><a href="#">Company And Team</a></li>
-    <li><a href="#">News And Blog</a></li>
-      <li><a href="#">News And Blog</a></li>
-        <li><a href="#">About Us</a></li>
-        
-            <li><a href="#">Careers</a></li>
+      {
+                  links.map((r)=>(
+                  <li><Link to={r.to}>{r.label}</Link></li>
+                    
+                    ))
+                }
+            
  </ul>
 </div>
 
